@@ -1,8 +1,8 @@
 const React = require('react');
 const { shallow } = require('enzyme');
 
-const FillerText = require('../components/FillerText');
-const Webpage = require('../components/Webpage');
+const FillerText = require('../src/components/FillerText');
+const Webpage = require('../src/components/Webpage');
 
 describe('<Webpage />', function () {
   const wrapper = shallow(<Webpage />);

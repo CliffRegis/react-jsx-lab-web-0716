@@ -1,7 +1,7 @@
 const React = require('react');
 const { shallow } = require('enzyme');
 
-const RegistrationForm = require('../components/RegistrationForm');
+const RegistrationForm = require('../src/components/RegistrationForm');
 
 describe('<RegistrationForm />', function () {
   const wrapper = shallow(<RegistrationForm />);
